@@ -2,44 +2,258 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Conexão Campo-Cidade</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agro Forte - Futuro Sustentável</title>
+
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Mono&family=Comic+Neue&family=Anton&family=Indie+Flower&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <header>
-    <h1>🌾🏙️ CONEXÃO ENTRE CAMPO E CIDADE 🌇🌱</h1>
-    <p>A união entre o verde da natureza e o concreto das cidades nunca foi tão essencial!</p>
+
+  <!-- TOPO -->
+  <header class="topo">
+
+    <h1>Agro Forte</h1>
+
+    <p>
+      Futuro sustentável: equilíbrio entre produção e meio ambiente.
+    </p>
+
+    <!-- MENU -->
+    <nav class="menu">
+      <button data-pagina="inicio">Início</button>
+      <button data-pagina="producao">Produção</button>
+      <button data-pagina="sustentabilidade">Sustentabilidade</button>
+      <button data-pagina="tecnologia">Tecnologia</button>
+      <button data-pagina="contato">Contato</button>
+    </nav>
+
   </header>
 
-  <main>
-    <section class="bloco campo">
-      <h2>🌿 O CAMPO: O PULMÃO DA VIDA RURAL 🌾</h2>
-      <img src="https://images.unsplash.com/photo-1596495577886-d920f1fb7238?auto=format&fit=crop&w=1200&q=80">
-      <p>
-        O campo é o local onde a terra respira e onde o alimento brota com a força da natureza. Ele sustenta cidades inteiras com sua produção agrícola e pecuária. Os pequenos agricultores lutam diariamente para manter viva a cultura da terra, enfrentando sol, chuva, pragas e desafios econômicos. No campo também nascem tradições, festas típicas, e um senso de comunidade que está cada vez mais raro nos centros urbanos.
-      </p>
-    </section>
+  <!-- INÍCIO -->
+  <section id="inicio" class="pagina">
 
-    <section class="bloco cidade">
-      <h2>🏢 A CIDADE: MODERNIDADE, TECNOLOGIA E DESAFIOS 🚧</h2>
-      <img src="https://images.unsplash.com/photo-1494783367193-149034c05e8f?auto=format&fit=crop&w=1200&q=80" alt="Vista de cidade moderna">
-      <p>
-        As cidades crescem sem parar! A verticalização e a inovação tomam conta do horizonte urbano, mas com isso vêm os problemas: poluição, excesso de consumo, distanciamento da origem dos alimentos. As cidades dependem diretamente do campo para se manter, mas essa conexão muitas vezes é invisível. É necessário que os moradores urbanos reconheçam que sua comida, sua energia e até sua água vêm, em grande parte, das zonas rurais.
-      </p>
-    </section>
+    <div class="container">
 
-    <section class="bloco uniao">
-      <h2>🌍 UNIÃO CAMPO + CIDADE = FUTURO 🌇🌻</h2>
-      <img src="https://images.unsplash.com/photo-1543872084-c7bd3822856f?auto=format&fit=crop&w=1200&q=80">
-      <p>
-        A integração entre campo e cidade é essencial para criar um sistema sustentável e equilibrado. Cidades podem promover feiras agroecológicas, hortas urbanas, apoio à produção local. Já o campo pode usar tecnologia desenvolvida nos centros urbanos para aumentar sua produtividade e sustentabilidade. Quando há troca, todos ganham. É hora de parar de ver esses dois mundos como opostos e começar a trabalhar juntos pelo planeta e pelas próximas gerações.
-      </p>
-    </section>
-  </main>
+      <div class="card">
 
-  <footer>
-    <p>Site experimental poluído visualmente para demonstrar excesso de informações. © 2025</p>
-  </footer>
-</body>
-</html>
+        <img src="https://picsum.photos/400/300?10"
+        class="imagem"
+        alt="Agro">
+
+        <div class="conteudo">
+
+          <h2 class="titulo">
+            Agro Forte
+          </h2>
+
+          <p class="texto">
+            O agronegócio é essencial para a economia, produção de alimentos e desenvolvimento sustentável.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="card">
+
+        <img src="https://picsum.photos/400/300?11"
+        class="imagem"
+        alt="Campo">
+
+        <div class="conteudo">
+
+          <h2 class="titulo">
+            Campo e Sustentabilidade
+          </h2>
+
+          <p class="texto">
+            Produzir respeitando o meio ambiente é fundamental para garantir o futuro das próximas gerações.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- PRODUÇÃO -->
+  <section id="producao" class="pagina">
+
+    <div class="container">
+
+      <div class="card">
+
+        <img src="https://picsum.photos/400/300?12"
+        class="imagem"
+        alt="Produção">
+
+        <div class="conteudo">
+
+          <h2 class="titulo">
+            Produção Agrícola
+          </h2>
+
+          <p class="texto">
+            O aumento da produtividade ajuda no abastecimento mundial e fortalece a economia.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="card">
+
+        <img src="https://picsum.photos/400/300?13"
+        class="imagem"
+        alt="Alimentos">
+
+        <div class="conteudo">
+
+          <h2 class="titulo">
+            Produção de Alimentos
+          </h2>
+
+          <p class="texto">
+            O campo é responsável por produzir alimentos que chegam diariamente às famílias.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- SUSTENTABILIDADE -->
+  <section id="sustentabilidade" class="pagina">
+
+    <div class="container">
+
+      <div class="card">
+
+        <img src="https://picsum.photos/400/300?14"
+        class="imagem"
+        alt="Natureza">
+
+        <div class="conteudo">
+
+          <h2 class="titulo">
+            Preservação Ambiental
+          </h2>
+
+          <p class="texto">
+            Técnicas sustentáveis ajudam a preservar rios, florestas e recursos naturais.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="card">
+
+        <img src="https://picsum.photos/400/300?15"
+        class="imagem"
+        alt="Sustentável">
+
+        <div class="conteudo">
+
+          <h2 class="titulo">
+            Agricultura Sustentável
+          </h2>
+
+          <p class="texto">
+            O equilíbrio entre produção e meio ambiente garante um futuro mais saudável.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- TECNOLOGIA -->
+  <section id="tecnologia" class="pagina">
+
+    <div class="container">
+
+      <div class="card">
+
+        <img src="https://picsum.photos/400/300?16"
+        class="imagem"
+        alt="Tecnologia">
+
+        <div class="conteudo">
+
+          <h2 class="titulo">
+            Tecnologia no Campo
+          </h2>
+
+          <p class="texto">
+            Máquinas modernas e inteligência artificial aumentam a eficiência agrícola.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="card">
+
+        <img src="https://picsum.photos/400/300?17"
+        class="imagem"
+        alt="Inovação">
+
+        <div class="conteudo">
+
+          <h2 class="titulo">
+            Inovação Rural
+          </h2>
+
+          <p class="texto">
+            A tecnologia contribui para reduzir desperdícios e proteger o meio ambiente.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="pagina">
+
+    <div class="container">
+
+      <div class="card">
+
+        <img src="https://picsum.photos/400/300?18"
+        class="imagem"
+        alt="Contato">
+
+        <div class="conteudo">
+
+          <h2 class="titulo">
+            Entre em Contato
+          </h2>
+
+          <p class="texto">
+            Tire dúvidas e saiba mais sobre projetos sustentáveis no agronegócio.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  
